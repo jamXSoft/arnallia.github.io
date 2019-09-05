@@ -1,0 +1,645 @@
+﻿{"actors":[
+
+{"id":1,"name":"Корристо"},
+{"id":3,"name":"Бен"},
+{"id":4,"name":"Энцо"},
+{"id":5,"name":"Страж Корабля"},
+{"id":6,"name":"Джек"},
+{"id":7,"name":"Диего"},
+{"id":8,"name":"Король Артур"},
+{"id":9,"name":"Торговец"},
+{"id":10,"name":"Сатурас"},
+{"id":11,"name":"Гай"},
+{"id":12,"name":"Нищий"},
+{"id":13,"name":"Хельга"},
+{"id":14,"name":"Надя"},
+{"id":15,"name":"Фермер"},
+{"id":16,"name":"Кузнец"},
+
+{"id":2,"name":"Я"}],
+
+
+"dialogues":[
+
+{"id":1,"parent":null,"isChoice":false,"actor":1,"conversant":null,"menuText":"","dialogueText":"Погоди минутку...Дальше идти очень опасно...Утром проходили бандиты, вели куда то одного парня,попутно ограбили меня и забрали одно важное письмо,даже незнаю как теперь вернуть его обратно...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[2]},
+{"id":2,"parent":2,"isChoice":true,"conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[3,4]},
+{"id":3,"parent":3,"isChoice":false,"actor":1,"conversant":3,"menuText":"Могу я помочь тебе с бандитами?","dialogueText":"Удачи! Она тебе понадовится...","conditionsString":"","codeBefore":"","codeAfter":"2","outgoingLinks":[]},
+{"id":5,"parent":null,"isChoice":false,"actor":1,"conversant":null,"menuText":"","dialogueText":"Ты вернул мое письмо! Я тебе очень благодарен! Вот,возьми это кольцо,это пока все что у меня есть...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+{"id":6,"parent":null,"isChoice":false,"actor":1,"conversant":null,"menuText":"","dialogueText":"Что же мне теперь делать...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+{"id":7,"parent":null,"isChoice":false,"actor":1,"conversant":null,"menuText":"","dialogueText":"Увидимся позже...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+
+
+
+
+
+
+{"id":8,"parent":null,"isChoice":false,"actor":3,"conversant":null,"menuText":"","dialogueText":"Спасибо что освободил меня приятель!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[9]},
+{"id":9,"parent":2,"isChoice":true,"conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[10,11]},
+{"id":10,"parent":3,"isChoice":false,"actor":3,"conversant":3,"menuText":"Как ты сюда попал?","dialogueText":"Я плавал на своей лодке пока не началась ужасная буря,лодка перевернулась,меня ударило веслом по голове и я потерял сознание,очнулся на берегу когда меня вязали две эти мерские рожи","conditionsString":"","codeBefore":"","codeAfter":"3","outgoingLinks":[]},
+{"id":11,"parent":null,"isChoice":false,"actor":3,"conversant":null,"menuText":"Мне нужно идти...","dialogueText":"Прощай!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+{"id":12,"parent":null,"isChoice":false,"actor":3,"conversant":null,"menuText":"","dialogueText":"Спасибо что освободил меня приятель! Как ты узнал что меня здесь держат?","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[13]},
+{"id":13,"parent":2,"isChoice":true,"conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[14,15]},
+{"id":14,"parent":3,"isChoice":false,"actor":3,"conversant":3,"menuText":"Корристо сказал что видел как бандиты тащат какого то парня","dialogueText":"Корристо? Это тот парень кого они обчистили? Я просидел долгое время в этой грязной дыре и ужасно хочу пить,не мог бы ты принести мне что нибудь выпить?","conditionsString":"","codeBefore":"","codeAfter":"3","outgoingLinks":[]},
+{"id":15,"parent":null,"isChoice":false,"actor":3,"conversant":null,"menuText":"Мне нужно идти...","dialogueText":"Прощай!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+{"id":16,"parent":3,"isChoice":false,"actor":3,"conversant":3,"menuText":"","dialogueText":"Ты не принес мне выпить?","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+{"id":17,"parent":3,"isChoice":false,"actor":3,"conversant":3,"menuText":"","dialogueText":"Удачи тебе приятель!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+{"id":18,"parent":3,"isChoice":false,"actor":3,"conversant":3,"menuText":"","dialogueText":"Спасибо тебе! Теперь я немного отдохну прежде чем отправиться домой...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"id":19,"parent":3,"isChoice":false,"actor":4,"conversant":3,"menuText":"","dialogueText":"Оставь меня в покое!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+{"id":21,"parent":3,"isChoice":false,"actor":4,"conversant":3,"menuText":"","dialogueText":"Какая ужасная погода,ненавижу дождь...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+{"id":22,"parent":3,"isChoice":false,"actor":2,"conversant":3,"menuText":"","dialogueText":"Я нашел часть амулета и по приказу короля я забираю его с собой!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[23]},
+{"id":23,"parent":3,"isChoice":false,"actor":4,"conversant":3,"menuText":"","dialogueText":"Хорошая работа!Король будет доволен!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+{"id":24,"parent":3,"isChoice":false,"actor":4,"conversant":3,"menuText":"","dialogueText":"Занимайся своими делами","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+
+
+
+
+
+{"id":150,"actor":8,"menuText":"","dialogueText":"Я слушаю тебя стражник...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[151]},
+{"id":151,"parent":2,"isChoice":true,"conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[152,153,154]},
+
+{"id":152,"actor":8,   "menuText":"Я пришел по приказу короля! Мне нужно найти часть Амулета...",   "dialogueText":"Отлично! Наконец то нам прислали подкрепление","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[151]},
+{"id":153,"actor":8,   "menuText":"Как продвигаются поиски?",   "dialogueText":"Пока безуспешно...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[151]},
+{"id":154,"actor":8,   "menuText":"Мне нужно идти...",    "dialogueText":"Да хранит тебя Кронос...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"id":25,"actor":5,"menuText":"","dialogueText":"Стой! Никто не вступит на корабль без приказа Энцо!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[26]},
+
+{"id":26,"parent":2,"isChoice":true,"conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[27,28,33]},
+
+
+
+{"id":27,"actor":5,   "menuText":"Чем вы занимаетесь на этом острове?",   "dialogueText":"Мы прибыли сюда в поиске одного важного куска артефакта,но пока поиски не увенчались особым успехом","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[26]},
+{"id":28,"actor":5,   "menuText":"Кто такой Энцо?",                                 "dialogueText":"Энцо паладин и наместник этого острова,он командир нашего отряда стражников на этом острове!  ","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[26]},
+{"id":33,"actor":5,   "menuText":"Мне нужно идти...",                               "dialogueText":"Прощай!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+
+
+{"id":29,"actor":5,"conversant":3,"menuText":"","dialogueText":"Не крутись тут,на корабль тебе все равно не войти","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+{"id":30,"actor":5,"conversant":3,"menuText":"","dialogueText":"Удачи тебе путник","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+{"id":34,"actor":5,"conversant":3,"menuText":"","dialogueText":"Ты что обкуренный? Поговорим когда придешь в себя!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+{"id":31,"actor":2,"menuText":"","dialogueText":"Я нашел то что вы искали!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[32]},
+{"id":32,"actor":5,"menuText":"","dialogueText":"Отлично!Наконец то мы сможем вернуться домой...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"id":64,"actor":6,"menuText":"","dialogueText":"Тсссссс.....Ты тут со своей лодкой мне всю рыбу распугаешь!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[65]},
+{"id":65,"parent":2,"isChoice":true,"conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[66,67,68]},
+{"id":66,"actor":6,   "menuText":"Кто ты такой?",   "dialogueText":"Я Джек,местный житель,занимаюсь рыбной ловлей чтобы как то прокормить семью,но после недавних бурь клева совсем нет,еще вот и удочка сломалась а карманы совсем пусты","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[70]},
+{"id":67,"actor":6,   "menuText":"Что ты знаешь о странных бурях последнее время?",   "dialogueText":"Я слышал от стражников что это дело рук какого то свехнувшегося архимага,возможно это просто слухи но паладины все на ушах стоят","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[65]},
+{"id":68,"actor":6,   "menuText":"Мне нужно идти...",   "dialogueText":"Удачи...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+{"id":70,"parent":2,"isChoice":true,"conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[71,72]},
+{"id":71,"actor":6,   "menuText":"Я найду тебе новую удочку!",    "dialogueText":"Я был бы тебе очень признателен,я могу дать тебе за это рыбку","conditionsString":"","codeBefore":"","codeAfter":"7","outgoingLinks":[]},
+{"id":72,"actor":6,   "menuText":"В другой раз",    "dialogueText":"Как скажешь","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[65]},
+
+{"id":73,"actor":6,"menuText":"","dialogueText":"Как поиски новой удочки?","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[74]},
+{"id":74,"parent":2,"isChoice":true,"conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[75]},
+{"id":75,"actor":6,   "menuText":"Я все еще занимаюсь этим...",   "dialogueText":"Ясно...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+{"id":76,"actor":6,"menuText":"","dialogueText":"Ну что ты принес мне удочку?","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[77]},
+{"id":77,"parent":2,"isChoice":true,"conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[78,79]},
+{"id":78,"actor":6,   "menuText":"Вот держи!!!",   "dialogueText":"Спасибо тебе! Вот твоя рыба!","conditionsString":"","codeBefore":"","codeAfter":"8","outgoingLinks":[]},
+{"id":79,"actor":6,   "menuText":"Я еще подумаю отдать ли ее тебе",   "dialogueText":"Как знаешь...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+{"id":80,"actor":6,"menuText":"","dialogueText":"С твоей удочкой рыбалка пойдет как надо!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[81]},
+{"id":81,"parent":2,"isChoice":true,"conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[82,83]},
+{"id":82,"actor":6,   "menuText":"Что ты знаешь о странных бурях последнее время?",   "dialogueText":"Я слышал от стражников что это дело рук какого то свехнувшегося архимага,возможно это просто слухи но паладины все на ушах стоят","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[81]},
+{"id":83,"actor":6,   "menuText":"Мне нужно идти...",   "dialogueText":"Как знаешь...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"id":84,"actor":12,"menuText":"","dialogueText":"Помоги бедному нищему куском хлеба","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[85]},
+{"id":85,"parent":2,"isChoice":true,"conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[86,87]},
+{"id":86,"actor":12,   "menuText":"Вот держи (Отдать хлеб)",   "dialogueText":"Так так так...","conditionsString":"","codeBefore":"","codeAfter":"9","outgoingLinks":[]},
+{"id":87,"actor":12,   "menuText":"Мне нечего тебе дать", "dialogueText":"Прощай","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+{"id":89,"actor":12,"menuText":"","dialogueText":"Да благословит тебя Кронос!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+{"id":90,"actor":12,"menuText":"","dialogueText":"Но у тебя его нет!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+{"id":91,"actor":12,"menuText":"","dialogueText":"Да прибудет с тобой Кронос!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"id":137,"actor":8,"menuText":"","dialogueText":"Я слушаю тебя стражник...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[138]},
+{"id":138,"parent":2,"isChoice":true,"conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[139,140,141,142]},
+
+{"id":139,"actor":8,   "menuText":"Расскажи мне про эти странные бури последнее время!",   "dialogueText":"Некий архимаг открыл древнюю книгу прочел заклинание и призвал могущественного дракона в наш мир,с ним прибыла и армия зла,чтобы стать неуязвимым ему нужен только артефакт Амулет Кроноса","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[143]},
+{"id":140,"actor":8,   "menuText":"Есть ли у тебя задания для меня?",   "dialogueText":"Пока нет...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[138]},
+{"id":141,"actor":8,   "menuText":"Как мне вступить в паладины??",    "dialogueText":"Ты только стал стражем уже метишь в паладины? Докажи что ты этого достоин!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[138]},
+{"id":142,"actor":8,   "menuText":"Мне нужно идти...",    "dialogueText":"Да хранит тебя Кронос...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+
+
+{"id":143,"parent":2,"isChoice":true,"conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[144,145,146,147]},
+{"id":144,"actor":8,   "menuText":"Где этот амулет?",   "dialogueText":"Амулет был расколот на две части древними магами огня,и хорошо спрятан,одна часть хранится в подвале замка,о местонахождении второй части ничего не известно,его поиском занимается Энцо на острове Салинас де Голь...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[148]},
+{"id":145,"actor":8,   "menuText":"Как вы хотите противостоять архимагу и его армии зла?",   "dialogueText":"У меня связаны руки,он похитил мою дочь,в обмен он хочет заполучить часть артефакта","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[143]},
+{"id":146,"actor":8,   "menuText":"Где искать Архимага?",   "dialogueText":"На острове Священный есть монастырь магов огня,только они могут указать тебе путь...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[143]},
+{"id":147,"actor":8,   "menuText":"Ответь мне еще на некоторые вопросы",    "dialogueText":"Задавай","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[138]},
+
+
+
+{"id":148,"parent":2,"isChoice":true,"conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[149]},
+{"id":149,"actor":8,   "menuText":"Дай мне эту часть,я соберу амулет и уничтожу архимага!",   "dialogueText":"Вероятности что он вернет мне дочь живой очень маленькая,поэтому надежда только на тебя! Возьми ключ от подвала где находится часть амулета","conditionsString":"","codeBefore":"","codeAfter":"15","outgoingLinks":[143]},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"id":36,"actor":7,"menuText":"","dialogueText":"Стой!!! Мы не пускаем в город кого попало...Чтобы войти заплати 100 золотых монет!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[42]},
+{"id":42,"parent":2,"isChoice":true,"conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[43,44,45]},
+{"id":43,"actor":7,   "menuText":"Что это за город?",   "dialogueText":"Это великий город Адрария столица нашей империи!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[42]},
+{"id":45,"actor":7,   "menuText":"Я все таки думаю мне туда не нужно",                               "dialogueText":"Очень хорошо...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+{"id":44,"actor":7,   "menuText":"Вот твои 100 золотых",   "dialogueText":"Так так так...","conditionsString":"","codeBefore":"","codeAfter":"6","outgoingLinks":[]},
+
+{"id":46,"actor":7,"menuText":"","dialogueText":"Отлично! Можешь проходить! Но не создавай нам проблем...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+{"id":47,"actor":7,"menuText":"","dialogueText":"Приходи когда у тебя будет больше золота!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+{"id":48,"actor":7,"menuText":"","dialogueText":"Я тебя слушаю...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[49]},
+{"id":49,"parent":2,"isChoice":true,"conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[50,51,52,93,96]},
+{"id":50,"actor":7,   "menuText":"Кто ты такой?",   "dialogueText":"Я глава городской стражи,все ополчение подчиняется мне!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[49]},
+{"id":51,"actor":7,   "menuText":"Как мне встретиться с королем?",   "dialogueText":"Король принимает только важных людей или ополченцев","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[49]},
+{"id":52,"actor":7,   "menuText":"Как мне вступить в ополчение?",    "dialogueText":"Будь полезен в городе,завоюй доверие горожан и приходи ко мне","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[49]},
+{"id":96,"actor":7,   "menuText":"Мне нужно идти...",    "dialogueText":"Как знаешь...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+{"id":93,"actor":7,   "menuText":"Готов ли я вступить в ополчение?",   "dialogueText":"Так посмотрим...","conditionsString":"","codeBefore":"","codeAfter":"10","outgoingLinks":[]},
+
+{"id":94,"actor":7,"menuText":"","dialogueText":"Ты доказал что можешь быть полезен,народ тобой доволен,такие люди нам нужны! Если ты готов то можешь вступить в наши ряды!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[128]},
+{"id":95,"actor":7,"menuText":"","dialogueText":"Нет","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+
+
+
+{"id":128,"parent":2,"isChoice":true,"conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[129,130]},
+{"id":129,"parent":3,"isChoice":false,"actor":7,"conversant":3,"menuText":"Я готов!","dialogueText":"Отлично! Теперь ты один из нас! Доспехи и оружие тебе выдаст Пек,если ты его встретишь скажи чтобы он немедленно шел на пост!","conditionsString":"","codeBefore":"","codeAfter":"14","outgoingLinks":[]},
+{"id":130,"parent":null,"isChoice":false,"actor":7,"conversant":null,"menuText":"Я еще подумаю над этим...","dialogueText":"Как знаешь...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[49]},
+
+
+
+
+{"id":131,"actor":7,"menuText":"","dialogueText":"Я слушаю тебя страж...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[132]},
+{"id":132,"parent":2,"isChoice":true,"conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[133,134,135,136]},
+{"id":133,"actor":7,   "menuText":"Какие мои обязанности как стража?",   "dialogueText":"Служи королю и паладинам,выполняй их задания...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[132]},
+{"id":134,"actor":7,   "menuText":"Есть ли у тебя задания для меня?",   "dialogueText":"Пока нет...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[132]},
+{"id":135,"actor":7,   "menuText":"Как мне вступить в паладины??",    "dialogueText":"Ты только стал стражем уже метишь в паладины? Кому стать паладином решает только король,Гай может помочь тебе в этом...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[132]},
+{"id":136,"actor":7,   "menuText":"Мне нужно идти...",    "dialogueText":"Да хранит тебя Кронос...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"id":97,"actor":14,"menuText":"","dialogueText":"Привет красавчик,я варю уху но мне не хватает три рыбины,если ты мне их принесешь я тебя угощу","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[98]},
+{"id":98,"parent":2,"isChoice":true,"conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[99,100]},
+
+{"id":100,"actor":14,   "menuText":"Увидимся позже...",    "dialogueText":"До встречи красавчик!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+{"id":99,"actor":14,   "menuText":"Дай мне своей похлебки!(отдать три рыбины)",   "dialogueText":"Хорошо","conditionsString":"","codeBefore":"","codeAfter":"11","outgoingLinks":[]},
+
+{"id":101,"actor":14,"menuText":"","dialogueText":"Вот возьми и приходи еще","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+{"id":102,"actor":14,"menuText":"","dialogueText":"Приходи ко мне с рыбой!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"id":103,"actor":15,"menuText":"","dialogueText":"Привет я сдешний фермер","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[104]},
+{"id":104,"parent":2,"isChoice":true,"conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[105,106,107]},
+
+{"id":105,"actor":15,   "menuText":"Как идут дела?",   "dialogueText":"Да последнее время не особо,полевые жуки поедают весь урожай!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[104]},
+{"id":106,"actor":15,   "menuText":"Нет ли у тебя для меня какой нибудь работы?",   "dialogueText":"Ты можешь пойти собрать репу у меня в огороде,я заплачу тебе за это 50 золотых","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[111]},
+{"id":107,"actor":15,   "menuText":"Увидимся позже...",    "dialogueText":"До встречи!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+
+{"id":111,"parent":2,"isChoice":true,"conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[112,113]},
+
+{"id":112,"actor":15,   "menuText":"По рукам!",    "dialogueText":"Отлично!Возвращайся ко мне с урожаем!","conditionsString":"","codeBefore":"","codeAfter":"12","outgoingLinks":[]},
+
+{"id":113,"actor":15,   "menuText":"Возможно позже...",   "dialogueText":"Как скажешь...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[104]},
+
+
+{"id":114,"actor":15,"menuText":"","dialogueText":"Отлично! Вот твои деньги!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+{"id":115,"actor":15,"menuText":"","dialogueText":"Приходи ко мне с репой!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+
+
+{"id":116,"actor":15,"menuText":"","dialogueText":"Приветствую тебя!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[117]},
+{"id":117,"parent":2,"isChoice":true,"conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[118,119,120]},
+
+{"id":118,"actor":15,   "menuText":"Как идут дела?",   "dialogueText":"Да последнее время не особо,полевые жуки поедают весь урожай!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[117]},
+{"id":119,"actor":15,   "menuText":"Нет ли у тебя еще для меня какой нибудь работы?",   "dialogueText":"Пока нет,возможно позже","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[117]},
+{"id":120,"actor":15,   "menuText":"Увидимся позже...",    "dialogueText":"До встречи!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"id":121,"actor":13,"menuText":"","dialogueText":"Привет! Ты же путешественник? Ты не видел моего брата? Его зовут Бен,он отправился на своей лодке в море но после бури он пропал,я очень переживаю за него...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[122]},
+{"id":122,"parent":2,"isChoice":true,"conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[123,124]},
+{"id":123,"actor":13,   "menuText":"На счет твоего брата...",   "dialogueText":"Да?","conditionsString":"","codeBefore":"","codeAfter":"13","outgoingLinks":[]},
+{"id":124,"actor":13,   "menuText":"Мне нужно идти...", "dialogueText":"Прощай","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+
+
+{"id":125,"actor":2,"menuText":"","dialogueText":"Я нашел его!Он жив и скоро вернется!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[173]},
+{"id":173,"actor":13,"menuText":"","dialogueText":"Слава богам! Не представляешь как я рада этой новости!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+{"id":126,"actor":2,"menuText":"","dialogueText":"Я пока его не встречал...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+{"id":127,"actor":13,"menuText":"","dialogueText":"Да прибудет с тобой Кронос!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"id":53,"actor":10,"menuText":"","dialogueText":"Подожди секунду...Наш монастырь могут посещать только слуги верховного бога Кроноса ","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[54]},
+{"id":54,"parent":2,"isChoice":true,"conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[55,56,57]},
+{"id":55,"actor":10,   "menuText":"Кто ты такой?",   "dialogueText":"Я маг огня и слуга верховного бога Кроноса","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[54]},
+{"id":56,"actor":10,   "menuText":"Как мне попасть в монастырь?",   "dialogueText":"На данный момент послушники нам не нужны,но ты можешь зайти помолиться если будешь слугой короля","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[54]},
+{"id":57,"actor":10,   "menuText":"Мне нужно идти",    "dialogueText":"Да прибудет с тобой Кронос странник","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+{"id":163,"actor":10,"menuText":"","dialogueText":"Подожди секунду...Наш монастырь могут посещать только слуги Кроноса ","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[164]},
+{"id":164,"parent":2,"isChoice":true,"conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[165,166,167]},
+{"id":165,"actor":10,   "menuText":"Кто ты такой?",   "dialogueText":"Я маг огня и слуга верховного бога Кроноса","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[164]},
+{"id":166,"actor":10,   "menuText":"Я стражник! Слуга короля! Пусти меня сейчас же!",   "dialogueText":"Конечно! Ты можешь проходить...","conditionsString":"","codeBefore":"","codeAfter":"17","outgoingLinks":[]},
+{"id":167,"actor":10,   "menuText":"Мне нужно идти",    "dialogueText":"Да прибудет с тобой Кронос странник","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+{"id":168,"actor":10,"menuText":"","dialogueText":"Прибудет с тобой Кронос стражник!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[169]},
+{"id":169,"parent":2,"isChoice":true,"conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[170,171,172]},
+{"id":170,"actor":10,   "menuText":"Что ты знаешь о архимаге? Как мне найти его?",   "dialogueText":"Архимаг которого ты ищешь бывший маг огня из нашего монастыря,перед тем как встать на темный путь он целыми днями проводил время в библиотеке,сходи туда,может там ты что нибудь найдешь...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[169]},
+{"id":171,"actor":10,   "menuText":"Благослови меня!",   "dialogueText":"Благословляю!","conditionsString":"","codeBefore":"","codeAfter":"17","outgoingLinks":[169]},
+{"id":172,"actor":10,   "menuText":"Мне нужно идти",    "dialogueText":"Да прибудет с тобой Кронос странник","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"id":58,"actor":11,"menuText":"","dialogueText":"Я тебя слушаю...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[59]},
+{"id":59,"parent":2,"isChoice":true,"conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[60,61,62,63]},
+{"id":60,"actor":11,   "menuText":"Кто ты такой?",   "dialogueText":"Я паладин,верный слуга нашего короля и главный среди паладинов,второй человек в королевстве!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[59]},
+{"id":61,"actor":11,   "menuText":"Как обстановка в городе?",   "dialogueText":"Паладины и стража держат все под контролем","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[59]},
+{"id":62,"actor":11,   "menuText":"Как мне стать одним из паладинов?",    "dialogueText":"Паладинов назначает наш король,я вижу что ты стал стражником,но чтобы стать паладином нужно очень постараться,неси службу на благо короны","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[59]},
+{"id":63,"actor":11,   "menuText":"Мне нужно идти...",   "dialogueText":"Удачи...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"id":155,"actor":16,"menuText":"","dialogueText":"Я слушаю тебя...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[156]},
+{"id":156,"parent":2,"isChoice":true,"conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[157,158]},
+{"id":157,"actor":16,   "menuText":"Как продвигаются дела?",   "dialogueText":"После того как появились все эти бури стража начала заказывать очень много оружия и доспехов,я едва справляюсь...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[156]},
+{"id":158,"actor":16,   "menuText":"Мне нужно идти...",    "dialogueText":"Да хранит тебя Кронос...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+{"id":159,"actor":16,"menuText":"","dialogueText":"Я слушаю тебя страж...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[160]},
+{"id":160,"parent":2,"isChoice":true,"conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[161,162]},
+{"id":161,"actor":16,   "menuText":"У меня есть две части амулета,ты можешь починить его?",   "dialogueText":"Дайка глянуть...Так так так...Вот держи!","conditionsString":"","codeBefore":"","codeAfter":"18","outgoingLinks":[]},
+{"id":162,"actor":16,   "menuText":"Мне нужно идти...",    "dialogueText":"Да хранит тебя Кронос...","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"id":38,"parent":null,"isChoice":false,"actor":9,"conversant":null,"menuText":"","dialogueText":"Мои товары по самым низким ценам!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[39]},
+{"id":39,"parent":2,"isChoice":true,"conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[40,41]},
+{"id":40,"parent":3,"isChoice":false,"actor":9,"conversant":3,"menuText":"Покажи что у тебя есть...","dialogueText":"Выбирай...","conditionsString":"","codeBefore":"","codeAfter":"5","outgoingLinks":[]},
+{"id":41,"parent":null,"isChoice":false,"actor":9,"conversant":null,"menuText":"Мне нужно идти...","dialogueText":"Прощай!","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]},
+
+
+
+
+
+
+{"id":4,"parent":3,"isChoice":false,"actor":1,"conversant":3,"menuText":"Мне нужно идти...","dialogueText":"До встречи!.","conditionsString":"","codeBefore":"","codeAfter":"","outgoingLinks":[]}]}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
